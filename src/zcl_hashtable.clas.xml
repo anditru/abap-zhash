@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_HASHTABLE</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Hash table</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_HASHTABLE</CLSNAME>
+     <CMPNAME>MEASURE_COLISIONS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Measure colisions at access</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_HASHTABLE</CLSNAME>
+     <CMPNAME>MOD_HASH_LINEAR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Modulo hashing with linear probing</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_HASHTABLE</CLSNAME>
+     <CMPNAME>MOD_HASH_QUADRATIC</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Modulo hashing with quadratic probing</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_HASHTABLE</CLSNAME>
+     <CMPNAME>MT_TABLE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Hash table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_HASHTABLE</CLSNAME>
+     <CMPNAME>MV_COLISIONS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Number of colisions</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_HASHTABLE</CLSNAME>
+     <CMPNAME>MV_LENGTH</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Length of table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_HASHTABLE</CLSNAME>
+     <CMPNAME>MV_TYPE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Mod linear (0) Mod hash (1)</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
